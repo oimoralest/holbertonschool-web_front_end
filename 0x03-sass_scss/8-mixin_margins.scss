@@ -3,7 +3,8 @@
     Margin left and right at 15px to div tags
 */
 @mixin left-right-margin($value) {
-    margin: 0 $value 0 $value;
+    margin-left: $value;
+    margin-right: $value;
 }
 
 body {
